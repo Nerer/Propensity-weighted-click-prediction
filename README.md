@@ -1,7 +1,7 @@
 # Propensity-weighted-click-prediction
 Intern Project done in Cornell, supervised by Professor Thorsten Joachims.
 
-Instructions to run the experiments on the covertype dataset.
+Instructions to run the experiments on the covertype dataset(It's a personal experiment code, not well-organized, and there may be some unexpected screen output).
 
 - First download the dataset in the `./data/` folder. Use `wget` to download the data from `data_url`.
 - Run `prepare.py`, `policy0.py`, `view.py` to process and reconstruct the dataset. You can use `python prepare.py && python policy0.py && python view.py`. Here the `policy0.py` is a 5-pass sampling. To modify it you have to modify the code. I haven't implemented options.
